@@ -1,0 +1,17 @@
+[workspace]
+members = [
+    "common",
+    "echor",
+    "catr",
+    "headr",
+    "tailr",
+    "wcr",
+    "uniqr",
+    "findr",
+    "cutr",
+    "calr",
+    "commr",
+    "grepr",
+    "fortuner"
+]
+resolver = "2"

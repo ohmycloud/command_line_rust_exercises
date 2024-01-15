@@ -1,0 +1,12 @@
+[package]
+name = "echor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = "4.4.11"
+
+[dev-dependencies]
+assert_cmd = "2.0.12"
+common = { path = "../common" }
+predicates = "3.0.4"
