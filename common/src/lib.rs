@@ -22,13 +22,3 @@ pub fn run(pkg: &str, args: &[&str], expected_file: &str) -> TestResult {
         .stdout(expected);
     Ok(())
 }
-
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn it_works() {
-        assert_eq!(4, 4);
-    }
-}
